@@ -60,7 +60,7 @@ const Home: NextPage = () => {
   const canvasRef = React.createRef<ReactSketchCanvasRef>();
   const [paths, setPaths] = React.useState<CanvasPath[]>([]);
   const [lastStroke, setLastStroke] = React.useState<{
-    stroke: CanvasPath | null;
+    stroke: any | null;
     isEraser: boolean | null;
   }>({ stroke: null, isEraser: null });
 
