@@ -67,7 +67,7 @@ const Home: NextPage = () => {
   const [canvasProps, setCanvasProps] = React.useState<
     Partial<ReactSketchCanvasProps>
   >({
-    width: '100%',
+    width: '560px',
     height: '500px',
     strokeWidth: 4,
     eraserWidth: 5,
