@@ -217,14 +217,6 @@ const Home: NextPage = () => {
           >
             Download
           </a>
-
-          // <button
-          //   className="border px-5 rounded-md bg-green-500"
-          //   type="button"
-          //   onClick={}
-          // >
-          //   Download
-          // </button>
         )}
         <div className="flex items-center pt-2">
           <label className="pr-2">Pen Color</label>
