@@ -1,7 +1,9 @@
 {
   "name": "create-your-own-chad",
   "version": "0.1.0",
-  "private": true,
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
