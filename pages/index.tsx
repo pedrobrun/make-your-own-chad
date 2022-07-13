@@ -244,7 +244,7 @@ const Home: NextPage = () => {
         />
       </main>
 
-      <footer className="flex justify-center border-t fixed bottom-0 mb-0 w-screen">
+      <footer className="flex justify-center border-t static bottom-0 mb-0 w-screen">
         <a
           href="https://github.com/pedrobrun"
           target="_blank"
