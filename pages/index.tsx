@@ -67,21 +67,18 @@ const Home: NextPage = () => {
   const [canvasProps, setCanvasProps] = React.useState<
     Partial<ReactSketchCanvasProps>
   >({
-    width: '560px',
-    height: '500px',
     strokeWidth: 4,
     eraserWidth: 5,
     strokeColor: '#000000',
     canvasColor: '#FFFFFF',
-    style: { height: '500px', width: '560px', margin: '0.5rem 0 0 0' },
+    style: { height: '  ', width: '' },
     svgStyle: {
-      height: '500px',
-      width: '560px',
+      height: '585px',
+      width: '735px',
       border: '0.0625rem solid #9c9c9c',
       borderRadius: '0.25rem',
     },
     exportWithBackgroundImage: true,
-    withTimestamp: true,
     allowOnlyPointerType: 'all',
   });
 
