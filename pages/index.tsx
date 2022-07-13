@@ -39,7 +39,7 @@ function InputField({
   const id = 'validation' + fieldName;
 
   return (
-    <div className="border self-center mb-4">
+    <div className="border self-center mb-4 flex justify-between">
       <label className="pr-2 ">{label}</label>
       <input
         name={fieldName}
@@ -186,7 +186,7 @@ const Home: NextPage = () => {
       <main className="flex flex-col justify-center items-center pt-2 px-[2rem] pb-1">
         <h1 className="text-6xl">Create Your Own Chad</h1>
 
-        <form className="pt-4 flex flex-wrap space-x-10 justify-center">
+        <form className="pt-4 lg:flex lg:flex-wrap lg:space-x-10 lg:justify-center">
           {inputProps.map(([fieldName, type, title]) => (
             <InputField
               key={fieldName}
@@ -197,7 +197,7 @@ const Home: NextPage = () => {
               setCanvasProps={setCanvasProps}
             />
           ))}
-          <div className="space-x-5">
+          <div className="flex flex-col space-y-3 lg:block lg:space-x-5 lg:space-y-0">
             {buttonsWithHandlers.map(([label, handler, themeColor]) =>
               createButton(label, handler, themeColor)
             )}
@@ -215,7 +215,7 @@ const Home: NextPage = () => {
             Download
           </a>
         )}
-        <div className="flex items-center pt-2">
+        <div className="flex items-center pt-2 pb-3">
           <label className="pr-2">Pen Color</label>
           <input
             type="color"
