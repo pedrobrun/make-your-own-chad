@@ -184,7 +184,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="flex flex-col justify-center items-center pt-2 px-[2rem] pb-1">
-        <h1 className="text-6xl">Create Your Own Chad</h1>
+        <h1 className="text-4xl md:text-6xl">Create Your Own Chad</h1>
 
         <form className="pt-4 lg:flex lg:flex-wrap lg:space-x-10 lg:justify-center">
           {inputProps.map(([fieldName, type, title]) => (
